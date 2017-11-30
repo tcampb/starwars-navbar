@@ -1,0 +1,79 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-image: url("space_background.png");
+}
+
+ul {
+    display: grid;
+    list-style-type: none;
+    justify-self: start;
+    line-height: 2em;
+    padding-left: 2px;
+    font-size: 24px;
+}
+
+.navbar {
+    margin-top: 25px;
+    display: grid;
+    transform: translate(-14vw);
+    width: 20%;
+    color: #AAAAAA;
+    background-color: rgba(107, 107, 107, 0.356);
+    transition: all 1s linear;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.navbar-hidden {
+    transform: none;
+    transform: translate(.5vw);
+    background-color: rgba(107, 107, 107, 0.356);
+}
+
+.pushR {
+    transform: rotate(42deg);
+    color: #DEF1DB
+    margin-top: 200px;
+}
+
+.pushL {
+    transform: translateY(-2vh) rotate(-42deg);;
+    color: #e45f65;
+    
+}
+
+.light {
+    text-shadow: -2px -2px 5px rgb(114, 245, 114);
+}
+
+.light2 {
+    text-shadow: -2px -2px 5px rgb(245, 114, 114);
+}
+
+
+.fade {
+    display: none;
+}
+
+a {
+    display: grid;
+    justify-self: end;
+    align-self: start;
+    text-decoration: none;
+    color: white;
+    line-height: 1px;
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: -3vh;
+    transition: all 1s linear;
+}
+
+p {
+    margin-bottom: -15px;
+    transition: all 1s linear;
+}
